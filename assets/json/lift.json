@@ -1,0 +1,63 @@
+[
+	{
+		"name": "Bench Press",
+		"part": "Chest",
+		"difficulty": "Beginner"
+	},
+	{
+		"name": "Squat",
+		"part": "Legs",
+		"difficulty": "Beginner"
+	},
+	{
+		"name": "Two Arm Dumbbell Row",
+		"part": "Back",
+		"difficulty": "Intermediate"
+	},
+	{
+		"name": "Dead Lift",
+		"part": "Back",
+		"difficulty": "Beginner"
+	},
+	{
+		"name": "Plate Shoulder Press",
+		"part": "Shoulders",
+		"difficulty": "Advanced"
+	},
+	{
+		"name": "Incline Press",
+		"part": "Chest",
+		"difficulty": "Advanced"
+	},
+	{
+		"name": "Leg Press",
+		"part": "Legs",
+		"difficulty": "Beginner"
+	},
+	{
+		"name": "Barbell Row",
+		"part": "Back",
+		"difficulty": "Advanced"
+	},
+	{
+		"name": "Seated Calf Raises",
+		"part": "Calves",
+		"difficulty": "Beginner"
+	},
+	{
+		"name": "Arnold Press",
+		"part": "Shoulders",
+		"difficulty": "Intermediate"
+	},
+	{
+		"name": "Dumbbell Fly",
+		"part": "Chest",
+		"difficulty": "Advanced"
+	},
+	{
+		"name": "Leg Extension",
+		"part": "Legs",
+		"difficulty": "Beginner"
+	}
+	
+]
