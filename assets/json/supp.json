@@ -1,0 +1,37 @@
+[
+	{
+		"sname": "C4",
+		"company": "Cellucor",
+		"difficulty": "Beginner",
+		"price":"$$",
+		"goal":"Focus"
+	},
+	{
+		"sname": "Gold Standard",
+		"company": "Optimum Nutrition",
+		"difficulty": "Beginner",
+		"price":"$$$",
+		"goal":"Build Muscle"
+	},
+	{
+		"sname": "Aminos",
+		"company": "Animal",
+		"difficulty": "Intermediate",
+		"price":"$",
+		"goal":"Build Muscle"
+	},
+	{
+		"sname": "N03",
+		"company": "Cellucor",
+		"difficulty": "Advanced",
+		"price":"$$$",
+		"goal":"Build Muscle"
+	},
+	{
+		"sname": "Super HD",
+		"company": "Cellucor",
+		"difficulty": "Advanced",
+		"price":"$$$",
+		"goal":"Lose Fat"
+	}
+]

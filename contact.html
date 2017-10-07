@@ -4,7 +4,8 @@
 		<title>MDBFit by Michael Bharrat</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />	
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
 	</head>
 	<body class="contact">
 		<div id="page-wrapper">
@@ -28,11 +29,11 @@
 											<li><a href="#">Create Supplement</a></li>
 										</ul>
 									</li>
-									<li><a href="contact.html">Contact Me</a></li>
+									
 									
 								</ul>
 							</li>
-							<li><a href="contact.html">Who Am I?</a></li>
+							<li><a href="contact.html">Contact Me</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -46,7 +47,38 @@
 						<p>Need help with fitness or web dev? Let me know!</p>
 					</header>
 						<section class="wrapper style4 special container 75%">
-								
+								<div class="content">
+									<form name="contactMe" action="mailto:mbharrat@gmail.com" method="post" enctype="text/plain">
+										<div class="row 50%">
+											<div class="6u 12u(mobile)">
+												<p>
+												<input type="text" name="name" placeholder="Name" ng-model="myName" required />
+												<span ng-show="contactMe.myName.$touched && contactMe.myName.$invalid">The name is required.</span>
+												</p>
+											</div>
+											<div class="6u 12u(mobile)">
+												<input type="text" name="email" placeholder="Email" />
+											</div>
+										</div>
+										<div class="row 50%">
+											<div class="12u">
+												<input type="text" name="subject" placeholder="Subject" />
+											</div>
+										</div>
+										<div class="row 50%">
+											<div class="12u">
+												<textarea name="message" placeholder="Message" rows="7"></textarea>
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<ul class="buttons">
+													<li><input type="submit" class="special" value="Send Message" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</div>
 
 						</section>
 
@@ -68,14 +100,24 @@
 		</div>
 
 		<!-- Scripts -->
+		<!--
+			<script language="JavaScript">
+				var frmvalidator  = new Validator("contact");
+				frmvalidator.addValidation("name","req","Please provide your name");
+				frmvalidator.addValidation("email","req","Please provide your email");
+				frmvalidator.addValidation("email","email",
+				  "Please enter a valid email address");
+			</script>
+		-->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollgress.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
 
 	</body>
 </html>
