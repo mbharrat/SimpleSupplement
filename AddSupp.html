@@ -19,7 +19,7 @@
 									<li class="submenu"><a href="#">Exercises</a>
 										<ul>
 												<li><a href="exerciseDB.html">Exercise List</a></li>
-												<li><a href="#">Create Exercise</a></li>
+												<li><a href="AddExercise.html">Create Exercise</a></li>
 										</ul>
 									</li>
 									<li class="submenu"><a href="#">Supplement List</a>
@@ -40,28 +40,28 @@
 						<h2>Help Us Get Better</h2>
 					</header>
 						<section class="wrapper style4 special container 75%">
-								<h3>Add to the Exercise Database</h3>
-									<div ng-app="eCreate" ng-controller="ExerciseCreateCtrl" class="content">
+								<h3>Add to the Supplement Database</h3>
+									<div ng-app="sCreate" ng-controller="SuppCreateCtrl" class="content">
 										<form novalidate>
 											<div class="row 50%">
 												<div class="6u 12u(mobile)">
-													<input ng-model="user.name" required type="text" placeholder="Exercise Name" />
+													<input ng-model="user.sname" required type="text" name="sname" placeholder="Supplement Name" />
 												</div>
 												<div class="6u 12u(mobile)">
-													<input ng-model="user.part" required type="text" name="bodyPart" placeholder="Body Part" />
+													<input ng-model="user.company" required type="text" name="company" placeholder="Company" />
 												</div>
 											</div>
 											<div class="row 50%">
 												<div class="6u 12u(mobile)">
-													<input ng-model="user.difficulty" required type="text" name="difficulty" placeholder="Difficulty" />
+													<input ng-model="user.price" required type="text" name="price" placeholder="Price" />
 												</div>
 												<div class="6u 12u(mobile)">
-													<input ng-model="user.createdBy" required type="text" name="createdBy" placeholder="Created By" />
+													<input ng-model="user.activeIngred" required type="text" name="activeIngred" placeholder="Active Ingredient" />
 												</div>
 											</div>
 											<div class="row 50%">
 												<div class="12u">
-													<textarea ng-model="user.description" required name="description" placeholder="Description" rows="7"></textarea>
+													<textarea ng-model="user.description" required name="sdescription" placeholder="Description" rows="7"></textarea>
 												</div>
 											</div>
 											<div class="row">
@@ -89,7 +89,7 @@
 				</footer>
 		</div>
 			<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
-			<script src="assets/js/createExercise.js"></script>
+			<script src="assets/js/createSupp.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>

@@ -2,7 +2,10 @@
 	{
 		"name": "Bench Press",
 		"part": "Chest",
-		"difficulty": "Beginner"
+		"difficulty": "Beginner",
+		"createdBy": "Michael",
+		"description": "This is an exercise that involves laying flat on a bench press"
+
 	},
 	{
 		"name": "Squat",
