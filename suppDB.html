@@ -94,7 +94,7 @@
 											        	<tr>
 											        		<td><input class="form-control" placeholder="search" ng-model="_search.sname" /></td>
 											        		<td><input class="form-control" placeholder="search" ng-model="_search.company" /></td>
-											        		<td><input class="form-control" placeholder="search" ng-model="_search.price" /></td>
+											        		<td><select ng-model="_search.price" ng-options="item.price for item in filterOptions.stores"></select></td>
 											        		<td><input class="form-control" placeholder="search" ng-model="_search.goal" /></td>
 											        	</tr>
 											            <tr ng-repeat="supplement in supplements | orderBy:sortType:sortReverse | filter:searchExercise | filter: _search">
